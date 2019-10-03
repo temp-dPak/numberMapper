@@ -22,3 +22,12 @@ The phone number mapping to letters is as follows:
  
 The phone numbers will never contain a 0 or 1. 
 Words have to be at least 3 characters.
+
+===== How to run:
+'NumberMapper' is the class which needs to be instantiated. The 'conductor' method is the master method that coordinates between other methods for the result.
+
+A simple way to use:
+
+"NumberMapper.new.conductor <your number here>"
+
+Beware, the method does not accept any number less than 10 digits long.
