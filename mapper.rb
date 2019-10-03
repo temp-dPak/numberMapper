@@ -1,4 +1,5 @@
 class NumberMapper
+
 def validator digits
 puts "Validator - " + digits
 if digits.length != 10
